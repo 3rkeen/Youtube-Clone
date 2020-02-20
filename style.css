@@ -1,0 +1,60 @@
+header{
+    background-color: white;
+    margin-top: -1.3rem;
+    width: 82rem;
+    height: 5rem;
+    position: fixed;
+}
+
+section{
+    background: transparent;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+article{
+    background: transparent;
+    margin-left: 2rem;
+}
+
+aside {
+    background: transparent;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+
+
+.grid-item1 { 
+    grid-area: header; 
+}
+.grid-item2 { 
+    height: 50rem;
+    grid-area: section; 
+}
+.grid-item3 {
+    height: 23rem; 
+    grid-area: article; 
+}
+.grid-item4 { 
+    grid-area: aside; 
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'section aside'
+    'article aside';
+  background-color: rgb(247, 247, 248);
+  padding: 10px;
+  }
+
+
+
+  
+
+  
+
