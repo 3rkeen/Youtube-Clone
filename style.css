@@ -27,9 +27,7 @@ footer{
     background: transparent;
 }
 
-.grid-item1 { 
-    grid-area: header; 
-}
+.grid-item1 { grid-area: header; }
 .grid-item2 { 
     height: 50rem;
     grid-area: section; 
@@ -51,8 +49,122 @@ footer{
     'header header'
     'section aside'
     'article aside';
+  /* grid-gap: 10px; */
   background-color: rgb(247, 247, 248);
   padding: 10px;
   }
 
+  .icons {
+      display: inline;
+  }
+
+  .menu-icon {
+    display: inline;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 1.5rem;
+    margin-right: 1.3rem;
+    margin-left: 2rem;
+    margin-bottom: -0.6rem;
+    fill: #606060;
+    cursor: pointer;
+  }
+
+  .youtube-logo {
+    display: inline;
+    width: 5.5rem;
+    height: 1.6rem;
+    margin-top: 1.5rem;
+    margin-right: 10rem;
+    margin-bottom: -0.6rem;
+    cursor: pointer;
+  }
+
+  .search-bar {
+    display: inline-block;
+    align: top;
+      width: 33rem;
+      height: 2rem;
+      margin-top: -1rem;
+      margin-right: -0.4em;
+      position: relative;
+      flex-basis: 1e-9px;
+      margin-bottom: 50px;
+  }
+
+  .search-btn {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.4rem;
+    margin-top: -0.5rem;
+    margin-left: 0.2rem;
+    margin-bottom: -0.5rem;
+    fill: #606060;
+    
+  }
+
+  .srch-btn {
+    width: 4rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-right: 10rem;
+    margin-bottom: -10rem;
+    margin-left: -0.3rem;
+    background-color: solid white;
+    cursor: pointer;
+  }
+
+  .upload-btn {
+    display: inline;
+    width: 1.7rem;
+    height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: -0.6rem;
+    fill: #606060;
+    cursor: pointer;
+  }
+
+  .apps-btn {
+    display: inline;
+    width: 1.7rem;
+    height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: -0.6rem;
+    fill: #606060;
+    cursor: pointer;
+  }
+
+  .alert-btn {
+      display: inline;
+    width: 1.7rem;
+    height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: -0.6rem;
+    fill: #606060;
+    cursor: pointer;
+  }
+
+  .profile-pic{
+    display: inline;
+    width: 2.2rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: -0.6rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  header div {
+      display: inline-block;
+  }
+
+
+
   
+
+  
+
