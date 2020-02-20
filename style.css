@@ -27,7 +27,9 @@ footer{
     background: transparent;
 }
 
-.grid-item1 { grid-area: header; }
+.grid-item1 { 
+    grid-area: header; 
+}
 .grid-item2 { 
     height: 50rem;
     grid-area: section; 
@@ -49,7 +51,6 @@ footer{
     'header header'
     'section aside'
     'article aside';
-  /* grid-gap: 10px; */
   background-color: rgb(247, 247, 248);
   padding: 10px;
   }
@@ -161,6 +162,33 @@ footer{
   header div {
       display: inline-block;
   }
+
+  .toggle-btn {
+      align-content: right;
+      height: 2rem;
+      width: 8rem;
+      margin-top: 1rem;
+      float: right;
+      cursor: pointer;
+  }
+
+  .autoplay {
+      margin-bottom: 3.57rem;
+  }
+
+  .thumbnail-img {
+      margin-left: 0.2rem;
+      cursor: pointer;
+  }
+
+  
+  .thumbnail-title {
+      margin-left: 0.7rem;
+      margin-bottom: 1.7rem;
+      cursor: pointer;
+  }
+
+  
 
 
 
