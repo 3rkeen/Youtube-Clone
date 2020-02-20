@@ -23,6 +23,9 @@ aside {
     margin-right: 2rem;
 }
 
+footer{
+    background: transparent;
+}
 
 .grid-item1 { 
     grid-area: header; 
@@ -52,9 +55,4 @@ aside {
   padding: 10px;
   }
 
-
-
   
-
-  
-
