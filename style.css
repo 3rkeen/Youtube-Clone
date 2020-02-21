@@ -188,7 +188,87 @@ footer{
       cursor: pointer;
   }
 
-  
+  section div {
+    display: inline-block;
+}
+
+
+article div {
+    display: inline-block;
+}
+
+.main-video {
+    height: 25rem;
+    width: 43.5rem;
+}
+
+.like-btn {
+    margin-right: 0.5rem;
+    margin-left: 10.5rem;
+    margin-bottom: -1.73rem;
+    width: 4rem;
+    height: 2.5rem;
+    cursor: pointer;
+    
+}
+
+.dislike-btn {
+    margin-right: 0.5rem;
+    margin-bottom: -1.53rem;
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.share-btn {
+    margin-right: 0.5rem;
+    margin-bottom: -1.53rem;
+    width: 5.2rem;
+    height: 2.2rem;
+    cursor: pointer;
+}
+
+.save-btn {
+    margin-right: 0.5rem;
+    margin-bottom: -1.53rem;
+    width: 4.2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.three-dots {
+    margin-right: 0.5rem;
+    margin-bottom: -1.53rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.avatar-img {
+    cursor: pointer;
+}
+
+.sub-btn {
+    float: right;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.description {
+    margin-left: 4rem;
+    font-size: 0.9rem;
+}
+
+.show-btn {
+    border: solid transparent;
+    background: transparent;
+    margin-left: 3.8rem;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
