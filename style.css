@@ -266,7 +266,74 @@ article div {
     cursor: pointer;
 }
 
+.srch-icon {
+    margin-bottom: 2rem;
+}
 
+.comment-btn {
+    margin-top: 0.5rem;
+    float: right;
+    border: solid transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#comment {
+    width: 45rem;
+    height: 2rem;
+    float: right;
+    border-top: solid transparent;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    border-bottom-color: solid #606060;;
+    background: transparent;
+    margin-top: 1rem;
+    
+}
+
+.comment-pic {
+    display: inline-block;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-comment {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.cmn-btn {
+    width: 6.5rem;
+    height: 2rem;
+    margin-right: 1rem;
+    border: solid transparent;
+    background:#606060;
+    cursor: pointer;
+}
+
+p b {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+small {
+    background: rgb(247, 247, 248);
+    font-size: 0.8rem;
+    color:#606060;;
+}
+
+.sort-btn {
+    margin-left: 2rem;
+    margin-bottom: -1rem;
+    cursor: pointer;
+}
 
 
 
